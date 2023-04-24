@@ -1,0 +1,56 @@
+.create-title {
+  padding: 30px;
+  background-color: rgb(98, 98, 129);
+  border-radius: 10px;
+}
+
+.form {
+  text-align: center;
+}
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding: 1.2rem;
+  background-color: #0affff;
+  border-radius: 2rem;
+}
+.input {
+  width: 80%;
+  /* max-width: 100%; */
+  height: 2.3rem;
+  border-radius: 3rem;
+  outline: none;
+  margin-right: 2rem;
+  padding-left: 1.7rem;
+  color: black;
+}
+
+.error-text {
+  color: #b40e0e;
+  text-align: left;
+  margin-bottom: 0.3rem;
+}
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+  width: 80%;
+}
+
+.button {
+  height: 2.3rem;
+  border-radius: 3rem;
+  padding: 0 1rem;
+  outline: none;
+  background-color: rgb(242, 250, 250);
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.button:hover,
+.button:active {
+  background-color: rgb(189, 172, 76);
+}

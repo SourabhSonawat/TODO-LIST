@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #e6e6fa;
+}
+.App {
+  margin: 3rem 80px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
